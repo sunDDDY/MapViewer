@@ -1,0 +1,14 @@
+/*change default behaviour in bootstrap for capability with leaflet css*/
+/*fixed padding's in leaflet*/
+label {
+margin-bottom: 0em;
+}
+
+.leaflet-layerstree-header-name {
+    margin-left: 4px;
+}
+label.leaflet-layerstree-header-label {
+    margin-left: 20px;
+}
+
+

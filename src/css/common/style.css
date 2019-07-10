@@ -1,0 +1,28 @@
+.leaflet-control-scale-line { /*scale bar [bottom-left] no opacity*/
+    background: #ffffff;
+}
+/*disable tooltip used toolbar leaflet.draw*/
+.leaflet-draw-tooltip-single {
+    display : none;
+}
+
+.leaflet-interactive:hover {
+    stroke-width: 5px;
+    font-weight: bolder;
+}
+.leaflet-popup-content {
+    white-space: pre-wrap;
+}
+.devBar-container {
+    position: fixed;
+    z-index: 1;
+    margin-left: 5px;
+    bottom: 40px;
+    background: #ffffff;
+    border: 2px solid #777;
+    border-top: none;
+    font: 11px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    padding: 0 4px 0;
+}
+
+

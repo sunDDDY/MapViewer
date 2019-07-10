@@ -1,0 +1,68 @@
+/*customize leaflet.draw.css*/
+.leaflet-draw-toolbar.leaflet-bar.leaflet-draw-toolbar-top
+{
+    display: flex;
+}
+
+.leaflet-draw-toolbar.leaflet-bar.leaflet-draw-toolbar-top {
+    top: 0;
+    left: 41vw;
+    position: absolute;
+}
+
+.leaflet-draw-toolbar.leaflet-bar {
+    margin-top: 0;
+    display: flex;
+    top: 0;
+    left: 50vw;
+    position: absolute;
+}
+
+/*change size after importing svg images*/
+.leaflet-draw-toolbar a {
+    background-size: 400px 40px;
+}
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-polyline,
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-polygon,
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-rectangle,
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-marker,
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-edit-edit,
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-edit-remove
+{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: none;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-polygon,
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-rectangle,
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-marker,
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-edit-remove
+{
+    border-left: 1px solid #ccc;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-polyline {
+    background-position: 0px 0px;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-polygon {
+    background-position: -40px;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-rectangle {
+    background-position: -80px;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-marker {
+    background-position: -160px;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-edit-edit {
+    background-position: -200px;
+}
+
+.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-edit-remove {
+    background-position: -240px;
+}

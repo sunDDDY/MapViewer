@@ -1,0 +1,23 @@
+.alert {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: none;
+}
+
+.alert.alarm {
+    background-color: #f44336;
+}
+
+.alert.success {
+    background-color: #4CAF50;
+}
+
+.alert.info {
+    background-color: #2196F3;
+    /*position: fixed;*/
+}
+
+.alert.warning {
+    background-color: #ff9800;
+}

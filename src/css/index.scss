@@ -1,0 +1,18 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import url('https://unpkg.com/leaflet@1.3.3/dist/leaflet.css');
+/*@import "~leaflet/dist/leaflet.css";*/
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap-vue/dist/bootstrap-vue.css"; /*learn*/
+
+
+@import "~leaflet-draw/dist/leaflet.draw.css";
+/* [my css] */
+@import "common/alerts.css";
+@import "common/style.css";
+
+.leaflet-control-layers.leaflet-control-layers-expanded.leaflet-control {
+  font: 14px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+
+
