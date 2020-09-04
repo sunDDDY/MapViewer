@@ -54,7 +54,7 @@
     "file-loader": "1.1.11",
     "friendly-errors-webpack-plugin": "1.7.0",
     "leaflet.control.layers.tree": "0.0.3",
-    "node-sass": "4.10.0",
+    "node-sass": "4.13.1",
     "null-loader": "0.1.1",
     "path": "0.12.7",
     "popper.js": "1.14.6",
